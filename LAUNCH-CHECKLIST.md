@@ -18,28 +18,27 @@
 
 ## 2. Tek hukuk deposunu yayınla
 
-- [ ] Bu depoyu public yap
-- [ ] Settings → Pages → Deploy from a branch → `main` / `(root)` seç
-- [ ] Pages dağıtımının tamamlanmasını bekle
-- [ ] `.nojekyll`, `index.html`, `privacy.html`, `terms.html` ve `assets/`
+- [x] Bu depoyu public yap
+- [x] Settings → Pages → Deploy from a branch → `main` / `(root)` seç
+- [x] Pages dağıtımının tamamlanmasını bekle
+- [x] `.nojekyll`, `index.html`, `privacy.html`, `terms.html` ve `assets/`
       eksiksiz yayınlandı
-- [ ] Gizlilik adresi:
+- [x] Gizlilik adresi:
       `https://ozaneuysal-max.github.io/RasgeleTor-XL-Legal/`
-- [ ] Uygulamadaki gizlilik URL’sinin aynı adres olduğu doğrulandı
-- [ ] Önceki imzalı paketler farklı URL içerdiği için Android `versionCode`
+- [x] Uygulamadaki gizlilik URL’sinin aynı adres olduğu doğrulandı
+- [x] Önceki imzalı paketler farklı URL içerdiği için Android `versionCode`
       artırıldı
-- [ ] Yeni imzalı AAB üret ve doğrula
+- [x] Yeni imzalı AAB üret ve doğrula
 
 ## 3. URL kontrolleri
 
-- [ ] HTTPS ile açılıyor
-- [ ] Şifre/giriş istemiyor
-- [ ] Coğrafi engel yok
-- [ ] PDF değil, doğrudan HTML
-- [ ] Mobil görünüm okunaklı
-- [ ] Gizlilik ve Şartlar birbirine bağlı
-- [ ] E-posta bağlantısı çalışıyor
-- [ ] `index.html` ve `privacy.html` aynı politika içeriğini gösteriyor
+- [x] HTTPS ile açılıyor
+- [x] Şifre/giriş istemiyor
+- [x] PDF değil, doğrudan HTML
+- [x] Mobil uyumlu görünüm tanımlı
+- [x] Gizlilik ve Şartlar birbirine bağlı
+- [x] E-posta bağlantısı `ozaneuysal@gmail.com`
+- [x] `index.html` ve `privacy.html` aynı politika içeriğini gösteriyor
 - [ ] Play Console’a girilen URL ile uygulamadaki URL aynı politikayı gösteriyor
 
 ## 4. Play Console

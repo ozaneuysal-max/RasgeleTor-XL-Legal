@@ -5,8 +5,10 @@ RasgeleTör XL için Türkçe ve İngilizce Gizlilik Politikası ile Hizmet
 
 ## Şu anki durum
 
-- GitHub deposu **private** tutulmalıdır.
-- GitHub Pages **açılmamalıdır**.
+- GitHub deposu **public** durumdadır.
+- GitHub Pages `main` / `(root)` üzerinden **açıktır**.
+- İlk doğrulanan public Pages dağıtımı:
+  `958aef1957997b6528e0e63a4c36c46e78c0c17a`.
 - HTML sayfalarında `noindex, nofollow, noarchive` bulunur.
 - Harici font, JavaScript, analiz veya takip kodu kullanılmaz.
 
@@ -19,11 +21,11 @@ RasgeleTör XL için Türkçe ve İngilizce Gizlilik Politikası ile Hizmet
 - `assets/legal.css`: Mobil uyumlu, takipsiz stil dosyası.
 - `LAUNCH-CHECKLIST.md`: Yayın günü adımları.
 
-## Planlanan private depo
+## Canlı depo
 
 `https://github.com/ozaneuysal-max/RasgeleTor-XL-Legal`
 
-Bu depo Pages için açılırsa planlanan adresler:
+Canlı Pages adresleri:
 
 - Gizlilik: `https://ozaneuysal-max.github.io/RasgeleTor-XL-Legal/`
 - Alternatif gizlilik:
@@ -38,10 +40,9 @@ Tek kullanılacak hukuk deposu ve planlanan gizlilik adresi:
 - Depo: `https://github.com/ozaneuysal-max/RasgeleTor-XL-Legal`
 - Gizlilik: `https://ozaneuysal-max.github.io/RasgeleTor-XL-Legal/`
 
-Uygulama kaynağındaki sabit gizlilik bağlantısı bu adrese ayarlanmıştır. Daha
-önce üretilen imzalı Android paketleri farklı bir adres içerdiğinden Production
-için kullanılmamalıdır. Yayın öncesinde yeni `versionCode` ile imzalı AAB
-üretilmeli ve paket içindeki URL yeniden doğrulanmalıdır.
+Uygulama kaynağındaki sabit gizlilik bağlantısı bu adrese ayarlanmıştır.
+`1.0.3` / versionCode `7` imzalı APK ve AAB içindeki URL doğrulanmıştır.
+Daha önce üretilen imzalı Android paketleri Production için kullanılmamalıdır.
 
 ## Yayın öncesi doğrulanacak bilgi
 
