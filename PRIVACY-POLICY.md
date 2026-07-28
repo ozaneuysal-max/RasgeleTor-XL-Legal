@@ -4,7 +4,7 @@ Yürürlük tarihi / Effective date: **28.07.2026**
 
 Uygulama / App: **RasgeleTör XL (Randomizer XL)**  
 Android paketi / Android package: `com.ozanshow1.randomizerxl`  
-İletişim / Contact: `duzdunyaarilari@gmail.com`
+İletişim / Contact: `ozaneuysal@gmail.com`
 
 ## Türkçe
 
@@ -98,7 +98,7 @@ geçerlidir.
 ### Değişiklikler ve iletişim
 
 Veri uygulamaları değişirse bu politika ve yürürlük tarihi güncellenir. Gizlilik
-soruları için `duzdunyaarilari@gmail.com` adresine yazabilirsiniz.
+soruları için `ozaneuysal@gmail.com` adresine yazabilirsiniz.
 
 ## English
 
@@ -191,4 +191,4 @@ Premium transactions are subject to the
 ### Changes and contact
 
 If the app’s data practices change, this policy and its effective date will be
-updated. For privacy questions, email `duzdunyaarilari@gmail.com`.
+updated. For privacy questions, email `ozaneuysal@gmail.com`.

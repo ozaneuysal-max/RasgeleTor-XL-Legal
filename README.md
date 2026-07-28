@@ -33,25 +33,24 @@ Bu depo Pages için açılırsa planlanan adresler:
 
 ## Kritik URL notu
 
-Mevcut Android uygulaması şu eski adresi açıyor:
+Tek kullanılacak hukuk deposu ve planlanan gizlilik adresi:
 
-`https://duzdunyaarilari-a11y.github.io/randomizer-xl-privacy/`
+- Depo: `https://github.com/ozaneuysal-max/RasgeleTor-XL-Legal`
+- Gizlilik: `https://ozaneuysal-max.github.io/RasgeleTor-XL-Legal/`
 
-Yayın gününde iki güvenli seçenek vardır:
-
-1. **Mevcut AAB’yi korumak:** Bu depodaki `.nojekyll`, `index.html`,
-   `privacy.html`, `terms.html` ve `assets/` dosyalarını eski Pages deposuna
-   aktarın. Uygulama bağlantısı değişmez.
-2. **Yeni Pages adresini kullanmak:** Uygulamadaki sabit gizlilik URL’sini yeni
-   adrese değiştirin, Android `versionCode` değerini artırın ve yeni AAB üretin.
-
-Sadece yeni private depoyu public yapmak mevcut AAB içindeki eski bağlantıyı
-değiştirmez.
+Uygulama kaynağındaki sabit gizlilik bağlantısı bu adrese ayarlanmıştır. Daha
+önce üretilen imzalı Android paketleri farklı bir adres içerdiğinden Production
+için kullanılmamalıdır. Yayın öncesinde yeni `versionCode` ile imzalı AAB
+üretilmeli ve paket içindeki URL yeniden doğrulanmalıdır.
 
 ## Yayın öncesi doğrulanacak bilgi
 
 Play Console’daki geliştirici/yayıncı adı farklıysa politika metnine aynı resmî
 ad eklenmelidir. Uygulama adı ve paket adı sayfalarda zaten açıkça yer alır.
+
+Geçerli iletişim adresi `ozaneuysal@gmail.com` olarak hazırlanmıştır. Ayrı bir
+destek e-postası açılırsa uygulama, hukuk sayfaları ve Play Console aynı anda
+güncellenmelidir.
 
 Metin şu anda Android/Google Play yayınına göre hazırlanmıştır. Aynı URL ileride
 App Store’da kullanılacaksa Apple ödeme, geri yükleme ve gizlilik bağlantıları

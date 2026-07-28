@@ -1,7 +1,7 @@
 # Hizmet Şartları / Terms of Service — RasgeleTör XL
 
 Yürürlük tarihi / Effective date: **28.07.2026**  
-İletişim / Contact: `duzdunyaarilari@gmail.com`
+İletişim / Contact: `ozaneuysal@gmail.com`
 
 ## Türkçe
 
@@ -12,6 +12,11 @@ Bu şartlar RasgeleTör XL’nin kullanımını düzenler. Uygulamayı kullanara
 kart, sayı, zar ve benzeri sonuçlar üretmek için genel amaçlı bir eğlence ve
 karar aracıdır. Uygulama hesabı, çevrimiçi yarışma, gerçek para ödülü, bahis veya
 kumar hizmeti sunmaz.
+
+Çark, zar, kart, numaralı top, sayı seti ve düşen top modları yalnızca genel
+amaçlı rastgele seçim araçlarıdır. Uygulama gerçek veya sanal para/kredi kabul
+etmez; bahis ya da stake, casino oyunu, jackpot, ödeme/kazanç, bahis oranı veya
+parasal değeri olan ödül sunmaz ve casino kumarını simüle etmez.
 
 ### Rastgele sonuçlar ve kritik kararlar
 
@@ -80,7 +85,7 @@ sorumluluklar etkilenmez.
 
 Şartlar ürün veya mevzuat değişikliklerine göre güncellenebilir. Önemli
 değişikliklerde yürürlük tarihi yenilenir. Sorular için
-`duzdunyaarilari@gmail.com` adresine yazabilirsiniz.
+`ozaneuysal@gmail.com` adresine yazabilirsiniz.
 
 ## English
 
@@ -91,6 +96,11 @@ these terms and the Privacy Policy. The app is a general-purpose entertainment
 and decision tool for generating options, names, cards, numbers, dice results,
 and similar outcomes. It does not provide a developer account, online contest,
 real-money prize, betting, or gambling service.
+
+Wheel, dice, card, numbered-ball, number-set, and ball-drop modes are
+general-purpose random selection tools only. The app does not accept real or
+virtual money or credits; provide wagers or stakes, casino games, jackpots,
+payouts, betting odds, or prizes of monetary value; or simulate casino gambling.
 
 ### Random results and critical decisions
 
@@ -159,4 +169,4 @@ liabilities that cannot legally be limited remain unaffected.
 
 These terms may be updated for product or legal changes. The effective date will
 be revised for material changes. For questions, email
-`duzdunyaarilari@gmail.com`.
+`ozaneuysal@gmail.com`.

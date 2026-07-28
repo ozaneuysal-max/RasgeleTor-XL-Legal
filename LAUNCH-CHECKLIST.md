@@ -4,7 +4,9 @@
 
 - [ ] Uygulama adı: `RasgeleTör XL` / `Randomizer XL`
 - [ ] Paket adı: `com.ozanshow1.randomizerxl`
-- [ ] Destek e-postası: `duzdunyaarilari@gmail.com`
+- [ ] Destek e-postası: `ozaneuysal@gmail.com`
+- [ ] Ayrı destek e-postası açıldıysa uygulama, hukuk sayfaları ve Play Console
+      aynı adresle güncellendi
 - [ ] Play Console geliştirici/yayıncı adı politika ile uyumlu
 - [ ] Yürürlük tarihi gerçek public yayın tarihine göre güncel
 - [ ] Reklam, analytics, crash reporting veya geliştirici backend’i eklenmedi
@@ -14,23 +16,18 @@
 - [ ] Gizlilik sayfasındaki 13+ beyanı Play Console hedef kitlesiyle aynı
 - [ ] iOS/App Store’da kullanılacaksa Apple ödeme ve gizlilik metni eklendi
 
-## 2. Hangi URL’nin kullanılacağını seç
-
-### Seçenek A — mevcut AAB’yi koru
-
-- [ ] Bu depodaki site dosyalarını
-      `duzdunyaarilari-a11y/randomizer-xl-privacy` deposuna aktar
-- [ ] `.nojekyll` ve `assets/` klasörü de aktarıldı
-- [ ] Eski URL’nin doğrudan yeni Gizlilik Politikası’nı gösterdiğini doğrula
-- [ ] `.../terms.html` adresinin açıldığını doğrula
-
-### Seçenek B — yeni GitHub Pages adresi
+## 2. Tek hukuk deposunu yayınla
 
 - [ ] Bu depoyu public yap
 - [ ] Settings → Pages → Deploy from a branch → `main` / `(root)` seç
 - [ ] Pages dağıtımının tamamlanmasını bekle
-- [ ] Uygulamadaki gizlilik URL’sini yeni adrese değiştir
-- [ ] Android `versionCode` değerini artır
+- [ ] `.nojekyll`, `index.html`, `privacy.html`, `terms.html` ve `assets/`
+      eksiksiz yayınlandı
+- [ ] Gizlilik adresi:
+      `https://ozaneuysal-max.github.io/RasgeleTor-XL-Legal/`
+- [ ] Uygulamadaki gizlilik URL’sinin aynı adres olduğu doğrulandı
+- [ ] Önceki imzalı paketler farklı URL içerdiği için Android `versionCode`
+      artırıldı
 - [ ] Yeni imzalı AAB üret ve doğrula
 
 ## 3. URL kontrolleri
