@@ -1,6 +1,6 @@
 # Gizlilik Politikası / Privacy Policy — RasgeleTör XL
 
-Yürürlük tarihi / Effective date: **28.07.2026**
+Yürürlük tarihi / Effective date: **07.11.2026**
 
 Uygulama / App: **RasgeleTör XL (Randomizer XL)**  
 Android paketi / Android package: `com.ozanshow1.randomizerxl`  
@@ -17,9 +17,9 @@ sistemi, uzak veritabanı veya kullanıcı profili hizmeti yoktur.
 ### Geliştiricinin toplamadığı veriler
 
 Mevcut sürüm geliştiriciye ait bir sunucuya kişisel veri, kullanım analitiği veya
-reklam kimliği göndermez. Reklam, üçüncü taraf analiz, davranışsal takip veya
-çökme raporlama SDK’sı içermez. Geliştirici kişisel verileri satmaz ve reklam
-amacıyla paylaşmaz.
+reklam kimliği göndermez. Uygulamada reklam, davranışsal takip veya ayrı bir
+çökme raporlama SDK’sı yoktur. Google Play Billing’in teknik tanılaması aşağıda
+açıklanmıştır. Geliştirici kişisel verileri satmaz ve reklam amacıyla paylaşmaz.
 
 ### Yalnızca cihazda işlenen veriler
 
@@ -43,9 +43,20 @@ politikası uyarınca işlenir.
 
 Uygulama, Premium erişimini açmak veya geri yüklemek için ürün kimliği ile satın
 alma/yetki durumunu Google Play Billing arayüzü üzerinden cihazda işler.
+Tamamlanan bir satın alma onaylanırken, işlemin referansı Google Play’e iletilir.
 Geliştirici tam ödeme kartı veya banka bilgilerinize erişmez ve satın alma
-verilerini kendi sunucusunda toplamaz. Google Play’de tutulan işlem kaydı,
-uygulama silinse bile mağaza hesabınızda kalabilir.
+verilerini kendi sunucusunda toplamaz veya saklamaz. Google Play’de tutulan
+işlem kaydı, uygulama silinse bile mağaza hesabınızda kalabilir.
+
+**Google Play Billing tanılaması:** Android’de uygulamaya eklenen Google Play
+Billing kütüphanesi, satın alma yapılmasa da mağaza bağlantısının ve satın alma
+akışının çalışmasını analiz etmek için Google’a otomatik olarak teknik tanılama
+verileri gönderir. Bunlar bağlantı ve işlem yanıtları, hata kodları, zamanlama
+ölçümleri, cihaz modeli, Android ve uygulama sürümleri, cihazın dil ve bölge
+ayarları, saat dilimi farkı, ağ türü ve mobil operatör kodu gibi teknik
+bilgileri içerebilir. Aktarım HTTPS üzerinden şifrelenir. Geliştirici bu
+tanılama kayıtlarını almaz veya kendi sunucusunda saklamaz. Tanılama verileri
+kart bilgilerinizi, özel listelerinizi veya oyun geçmişinizi içermez.
 
 ### Kullanıcının başlattığı paylaşım
 
@@ -58,8 +69,8 @@ politikası geçerlidir.
 
 Uygulama konum, kamera, mikrofon, kişiler veya paylaşılan harici depolama erişimi
 istemez. Temel rastgele seçim özellikleri çevrimdışı çalışır. Ağ bağlantısı;
-Google Play ile Premium satın alma/geri yükleme işlemleri ve sizin açmayı
-seçtiğiniz harici hukuk veya destek bağlantıları için kullanılabilir.
+Google Play ile Premium satın alma ve geri yükleme işlemleri, Billing tanılaması
+ve açmayı seçtiğiniz harici hukuk veya destek bağlantıları için kullanılabilir.
 
 ### Sağlık ve egzersiz verileri
 
@@ -73,7 +84,10 @@ Yerel bilgiler siz uygulama içinden ilgili geçmişi/listeleri silene, işletim
 sistemi ayarlarından uygulama verisini temizleyene veya uygulamayı kaldırana
 kadar cihazda kalabilir. Geliştirici hesabı bulunmadığı için silinecek bir
 sunucu hesabı yoktur. Google Play satın alma kayıtları Google hesabınız ve
-Google’ın saklama kuralları kapsamında yönetilir.
+Google’ın saklama kuralları kapsamında yönetilir. Tanılama olayları gönderilmeden
+önce cihazda kuyruğa alınabilir. Google’a ulaşan tanılama verilerinin saklanması
+ve silinmesi Google’ın uygulamalarına tabidir; geliştirici bu kayıtlar için ayrı
+bir silme talebi yöntemi sunmaz.
 
 ### Güvenlik
 
@@ -90,7 +104,7 @@ RasgeleTör XL genel kitleye yönelik bir eğlence ve karar aracıdır; özellik
 
 ### Üçüncü taraf hizmetleri
 
-Premium işlemleri için
+Premium işlemleri ve Google’a iletilen Billing tanılama verileri için
 [Google Gizlilik Politikası](https://policies.google.com/privacy) ve
 [Google Play Kullanım Şartları](https://play.google.com/about/play-terms/)
 geçerlidir.
@@ -111,9 +125,10 @@ sign-in system, remote database, or user profile service.
 ### Data the developer does not collect
 
 The current version does not send personal data, usage analytics, or advertising
-identifiers to a developer-operated server. It contains no advertising,
-third-party analytics, behavioral tracking, or crash reporting SDK. The
-developer does not sell personal data or share it for advertising.
+identifiers to a developer-operated server. The app has no advertising,
+behavioral tracking, or separate crash-reporting SDK. Google Play Billing
+diagnostics are described below. The developer does not sell personal data or
+share it for advertising.
 
 ### Data processed only on your device
 
@@ -136,11 +151,23 @@ record associated with your store account under its own terms and privacy
 policy.
 
 To unlock or restore Premium, the app processes the product identifier and
-purchase/entitlement status on the device through Google Play Billing. The
-developer does not receive full payment card or bank details and does not
-collect purchase data on a developer-operated server. A transaction record held
-by Google Play may remain associated with your store account after the app is
-removed.
+purchase/entitlement status on the device through Google Play Billing. When a
+completed purchase is acknowledged, its transaction reference is sent to
+Google Play. The developer does not receive full payment card or bank details
+and does not collect or store purchase data on a developer-operated server.
+A transaction record held by Google Play may remain associated with your store
+account after the app is removed.
+
+**Google Play Billing diagnostics:** On Android, the Google Play Billing library
+in the app automatically sends technical diagnostics to Google to analyze how
+the store connection and purchase flow are working, even if you do not make a
+purchase. This can include connection and transaction responses, error codes,
+timing measurements, device model, Android and app versions, device language
+and region settings, time-zone offset, network type, and mobile carrier code.
+The transfer is encrypted over HTTPS. The developer does not receive
+these diagnostic records or store them on a developer-operated server. These
+diagnostics do not include payment card information, custom lists, or game
+history.
 
 ### Sharing initiated by you
 
@@ -153,8 +180,8 @@ applies.
 
 The app does not request access to location, camera, microphone, contacts, or
 shared external storage. Core randomizer features work offline. A network
-connection may be used for Premium purchases and restores through Google Play
-and for external legal or support links that you choose to open.
+connection may be used for Premium purchases and restores through Google Play,
+Billing diagnostics, and external legal or support links that you choose to open.
 
 ### Health and fitness data
 
@@ -167,7 +194,10 @@ Health Connect, body sensors, or physical activity permissions.
 Local information may remain on your device until you delete relevant history or
 lists, clear app data through system settings, or uninstall the app. There is no
 developer account or server account to delete. Google Play purchase records are
-managed through your Google account and Google’s retention practices.
+managed through your Google account and Google’s retention practices. Diagnostic
+events may be queued on your device before transmission. Retention and deletion
+of diagnostics received by Google are governed by Google’s practices; the
+developer does not offer a separate deletion request mechanism for those records.
 
 ### Security
 
@@ -184,7 +214,7 @@ personal data from children or other users through the app.
 
 ### Third-party services
 
-Premium transactions are subject to the
+Premium transactions and Billing diagnostics sent to Google are subject to the
 [Google Privacy Policy](https://policies.google.com/privacy) and
 [Google Play Terms of Service](https://play.google.com/about/play-terms/).
 
